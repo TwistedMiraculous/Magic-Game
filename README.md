@@ -1,77 +1,36 @@
-Magic Game
+# Magic Game
 
-What is "Magic Game"?
+## Overview  
+**Magic Game** was crafted as part of Hack Club's *High Seas Event*. It’s supposed to be a 2D fantasy adventure where you take on the role of a spellcaster. While the game is still in its early stages, it offers a glimpse of what’s to come—dynamic combat mechanics, magical abilities, and an engaging challenge! Expect some bugs as I continue to enhance it.
 
-"Magic Game" is an enchanting 2D fantasy experience where you step into the role of a daring adventurer battling an ever-encroaching enemy. With vibrant sprite animations, a dynamic health bar, and engaging gameplay mechanics, this project was built to bring a sense of whimsy and challenge to players who enjoy fast-paced, strategic combat games.
+## Features  
+- **Player Combat Mechanics**: Attack the enemy using three magical powers, activated by pressing **A**, **S**, and **W**.  
+- **Health Bars**: The enemy has dynamic health bars that reflect damage taken.  
+- **Enemy Counterattacks (Coming Soon)**: The enemy fights back, ensuring a tense and exciting battle.  
+- **Game Over Screen (Coming Soon)**: When your health drops to zero, the game transitions to a "Start Over" screen.  
 
-Why We Built It
 
-The idea behind "Magic Game" was to explore the magic of creativity, coding, and storytelling while delivering an engaging gaming experience. It’s a love letter to nostalgic 2D games we grew up playing and a way to showcase how programming and art can merge to create something truly magical.
+## How to Play  
+1. Clone or download the project repository.  
+2. Open the `index.html` file in your browser.  
+3. Use the keyboard controls (A, S, W) to cast magical attacks and the arrow keys to move the players around.  
+4. Survive as long as possible by managing your health and defeating the enemy (Well for now you don't take damage).  
+5. If your health drops to zero, restart the game to try again ( Not in the game yet)!
 
-The game’s story emerged from countless moments spent daydreaming about pixel-perfect battles, spell-slinging action, and compelling mechanics that keep players coming back for more. It’s also a project aimed at honing programming and game development skills while having a ton of fun in the process.
+## Development Story  
+I had tried using the Canvas API for the very first time, It was very annoying to use at first but I think I am getting the hang of it!
 
-How We Built It
+### Tools & Technologies:  
+- **HTML, CSS, and JavaScript**: Formed the foundation of the game.  
+- **Canvas API**: Used for rendering characters, health bars, and animations.  
+- **Custom Code**: All mechanics, from health systems to game states, were built from scratch.  
 
-"Magic Game" was brought to life using the following tools and technologies:
+## Future Plans  
+I will implement the following in to the game:  
+- **Game Assets** will be implemented at the end once I have added in the damage delt by enemies to the player.  
+- **Power-ups** and additional magical spells.  
+- **Levels** with increasing difficulty and unique challenges will be added in a far future.  
+- **Customization** for characters to let players personalize their experience.
 
-HTML, CSS, and JavaScript: The foundational tech stack used to create the game.
+I hope you enjoy **Magic Game** and welcome your feedback to help shape its future!
 
-Canvas API: For rendering the player and enemy animations, and handling all the visual aspects of the game world.
-
-Sprite Sheets and GIF Animations: Used for smooth character movements and idle animations.
-
-Custom Logic: Player and enemy mechanics, health systems, damage handling, and game states were coded manually for a unique touch.
-
-Features
-
-Player and Enemy Health Bars: Visual indicators that dynamically update during gameplay.
-
-Player Combat Mechanics: Players can attack enemies, dealing damage and progressing the game.
-
-Enemy Counterattacks: The enemy strikes back, keeping players on their toes.
-
-Game Over Screen: If the player’s health reaches zero, the game gracefully transitions to a "Start Over" screen.
-
-Beautiful Title Screen: AI-generated title art sets the magical tone from the start.
-
-How to Play
-
-Clone or download the project from this repository.
-
-Open the index.html file in your preferred browser.
-
-Use the controls to attack the enemy, avoid taking damage, and survive as long as possible.
-
-If your health drops to zero, you’ll have the option to start over.
-
-Who It's For
-
-This game is for:
-
-Gamers who love retro-style 2D games with a magical twist.
-
-Aspiring game developers looking for inspiration or sample code.
-
-Anyone who’s looking for a quick, entertaining experience to brighten their day.
-
-Behind the Scenes
-
-The development journey involved:
-
-A lot of experimentation with the Canvas API.
-
-Watching inspirational movies like Howl’s Moving Castle and The Sorcerer’s Apprentice to fuel the magical vibe.
-
-Late nights debugging JavaScript logic with a steady supply of tea and upbeat music playlists.
-
-What’s Next?
-
-While the game is already playable, we’re brainstorming additional features, such as:
-
-Power-ups and spells to enhance gameplay.
-
-Multiple levels with increasing difficulty.
-
-Customizable characters.
-
-We hope you enjoy "Magic Game" as much as we enjoyed creating it. Your feedback and suggestions are always welcome—they might even inspire the next iteration of this magical adventure!
